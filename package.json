@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "vite-gh-pages",
+    "deploy": "vite-plugin-gh-pages",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -37,6 +37,4 @@
     "vite": "^5.4.1",
     "vite-plugin-gh-pages": "^1.0.0"
   }
-  
 }
-
