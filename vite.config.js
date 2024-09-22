@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: 'cobadulu', // Ganti dengan nama repository GitHub kamu
+  base: '/cobadulu/', // Ganti dengan nama repository GitHub kamu
 });
